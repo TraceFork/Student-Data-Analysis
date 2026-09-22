@@ -1,0 +1,85 @@
+---
+title: "Student Data Analysis"
+author: "TraceFork"
+date: "2026-09-22"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    df_print: paged
+---
+
+# Student Data Analysis
+
+This report analyzes the student dataset to generate descriptive statistics, identify distribution patterns, and summarize academic outcomes.
+
+## 1. Data Loading
+
+```{r}
+student_data <- read.csv("../data/students.csv")
+head(student_data)
+```
+
+## 2. Data Structure
+
+```{r}
+str(student_data)
+summary(student_data)
+```
+
+## 3. Missing Value Check
+
+```{r}
+colSums(is.na(student_data))
+```
+
+## 4. Data Cleaning
+
+```{r}
+student_data <- unique(student_data)
+student_data$Gender <- as.factor(student_data$Gender)
+student_data$Course <- as.factor(student_data$Course)
+student_data$Department <- as.factor(student_data$Department)
+student_data$CGPA <- as.numeric(student_data$CGPA)
+```
+
+## 5. Statistical Summary
+
+```{r}
+mean(student_data$CGPA, na.rm = TRUE)
+median(student_data$CGPA, na.rm = TRUE)
+sd(student_data$CGPA, na.rm = TRUE)
+min(student_data$CGPA, na.rm = TRUE)
+max(student_data$CGPA, na.rm = TRUE)
+```
+
+## 6. Distribution Analysis
+
+```{r}
+gender_count <- table(student_data$Gender)
+gender_count
+```
+
+```{r}
+course_count <- table(student_data$Course)
+course_count
+```
+
+```{r}
+hist(student_data$CGPA, main = "Distribution of Student CGPA", xlab = "CGPA", ylab = "Number of Students")
+```
+
+## 7. Average CGPA by Course
+
+```{r}
+course_cgpa <- aggregate(CGPA ~ Course, data = student_data, FUN = mean)
+course_cgpa
+```
+
+```{r}
+barplot(course_cgpa$CGPA, names.arg = course_cgpa$Course, main = "Average CGPA by Course", xlab = "Course", ylab = "Average CGPA", las = 2)
+```
+
+## 8. Conclusion
+
+The dataset shows a broad range of academic performance across courses and departments, with CGPA distribution providing useful insight into overall student outcomes.

@@ -16,13 +16,14 @@ This repository explores a student dataset to:
 ```text
 Student-Data-Analysis/
 ├── README.md
+├── DESCRIPTION
 ├── .gitignore
-├── DATA/                  # optional future dataset folder
+├── data/
+│   └── students.csv
 ├── scripts/
 │   └── student_analysis.R
 ├── docs/
-│   ├── student_analysis.Rmd
-│   └── student_analysis.html
+│   └── student_analysis.Rmd
 ├── outputs/
 │   └── plots/
 ├── archive/
@@ -30,8 +31,8 @@ Student-Data-Analysis/
 │       ├── Markdown(MIhir-078(bca(reg))).rmd
 │       ├── Markdown-MIhir-078-bca-reg---.html
 │       └── tutorial_readme.md
-└── data/
-    └── students.csv
+└── resources/
+    └── legacy project files
 ```
 
 ## Current Data
@@ -53,7 +54,6 @@ The project analyzes:
 The main documentation is organized as:
 - `README.md` — project overview and usage
 - `docs/student_analysis.Rmd` — R Markdown report source
-- `docs/student_analysis.html` — rendered HTML report
 - `archive/legacy/` — older exploratory files kept for reference
 
 ## Requirements
