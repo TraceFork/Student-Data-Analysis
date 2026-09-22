@@ -1,0 +1,185 @@
+---
+title: "R - Student Analysis"
+author: |
+  Mihir Rathod 
+  
+  2505101010078
+date: "2026-09-07"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+This project is about analysis on students data to get summary, plots/graphs etc. related to the data.
+
+# 1. Data Importing
+
+```{r, fig.width = 12, out.width = "100%"}
+# Load knitr to render wide tables beautifully on one line
+library(knitr)
+
+student_data <- read.csv("C:/Users/besto/OneDrive/Desktop/r_lab/ppr/students.csv")
+kable(student_data)
+```
+
+```{r}
+kable(head(student_data))
+```
+
+```{r}
+str(student_data)
+```
+
+```{r}
+summary(student_data)
+```
+
+# 2. Data Preprocessing and Cleaning
+
+```{r}
+colSums(is.na(student_data))
+```
+
+```{r}
+student_data <- unique(student_data)
+```
+
+```{r}
+student_data$Gender <- as.factor(student_data$Gender)
+student_data$Course <- as.factor(student_data$Course)
+student_data$Department <- as.factor(student_data$Department)
+student_data$CGPA <- as.numeric(student_data$CGPA)
+```
+
+```{r}
+colSums(is.na(student_data))
+```
+
+# 3. Statistical Analysis
+
+## CGPA Statistics
+
+```{r}
+mean(student_data$CGPA)
+median(student_data$CGPA)
+var(student_data$CGPA)
+sd(student_data$CGPA)
+min(student_data$CGPA)
+max(student_data$CGPA)
+```
+
+## Gender Distribution
+
+```{r}
+gender_count <- table(student_data$Gender)
+gender_count
+```
+
+The table function counts the number of students in each gender category.
+
+## Course Distribution
+
+```{r}
+course_count <- table(student_data$Course)
+course_count
+```
+
+The course frequency table shows the number of students enrolled in each course.
+
+# 4. Graph and Plot Creation
+
+## Gender Distribution
+
+```{r}
+pie(
+  gender_count,
+  main = "Gender Distribution",
+  labels = paste(names(gender_count), gender_count)
+)
+```
+
+The pie chart shows the distribution of students according to gender. The size of each section represents the number of students in that category.
+
+## Course Distribution
+
+```{r}
+barplot(
+  course_count,
+  main = "Student Distribution by Course",
+  xlab = "Course",
+  ylab = "Number of Students",
+  las = 2
+)
+```
+
+The bar plot compares the number of students across different courses.
+
+## Student CGPA
+
+```{r, fig.width = 12, fig.height = 7}
+# Increase the bottom margin so Student IDs have breathing room
+par(mar = c(10, 5, 4, 2) + 0.1)
+
+barplot(
+  student_data$CGPA,
+  names.arg = student_data$Student_ID,
+  main = "Student CGPA",
+  xlab = "", 
+  ylab = "CGPA",
+  las = 2
+)
+
+# Push the x-axis label downwards so it doesn't overlap
+title(xlab = "Students", mgp = c(7, 1, 0))
+```
+
+The bar plot shows the CGPA of individual students.
+
+## CGPA Distribution
+
+```{r}
+hist(
+  student_data$CGPA,
+  main = "Distribution of Student CGPA",
+  xlab = "CGPA",
+  ylab = "Number of Students"
+)
+```
+
+The histogram displays the distribution of CGPA values.
+
+# 5. Course-wise CGPA Analysis
+
+```{r}
+course_cgpa <- aggregate(
+  CGPA ~ Course,
+  data = student_data,
+  FUN = mean
+)
+
+kable(course_cgpa)
+```
+
+The aggregate function calculates the average CGPA for each course.
+
+## Average CGPA by Course
+
+```{r}
+barplot(
+  course_cgpa$CGPA,
+  names.arg = course_cgpa$Course,
+  main = "Average CGPA by Course",
+  xlab = "Course",
+  ylab = "Average CGPA",
+  las = 2
+)
+```
+
+The bar plot compares the average CGPA among different courses.
+
+# 6. Findings
+
+```{r}
+overall_cgpa <- mean(student_data$CGPA)
+overall_cgpa
+```
