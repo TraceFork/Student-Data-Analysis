@@ -1,0 +1,13 @@
+# R project files
+.Rhistory
+.RData
+.Ruserdata
+
+# generated output
+outputs/plots/*.png
+outputs/plots/*.jpg
+outputs/plots/*.jpeg
+
+# editor/system files
+.DS_Store
+Thumbs.db

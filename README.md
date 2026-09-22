@@ -1,41 +1,85 @@
 # Student Data Analysis
 
-This repository contains a small R-based student data analysis project focused on summary statistics, distributions, and visualizations.
+A small R project for analyzing student data using summary statistics, distributions, and visualizations.
 
-## Repository Owner
-- Username: TraceFork
-- Contributor: Mihir H. Rathod — 2505101010078 — BCA (REG.)
+## Overview
 
-## File Tree Structure
+This repository explores a student dataset to:
+- inspect the structure and quality of the data
+- calculate descriptive statistics
+- analyze distributions and category counts
+- create visual summaries and charts
+- document the workflow in a reproducible, easy-to-follow format
+
+## Repository Structure
 
 ```text
 Student-Data-Analysis/
 ├── README.md
-├── resources/
-│   ├── Markdown(MIhir-078(bca(reg))).rmd
-│   ├── Markdown-MIhir-078-bca-reg---.html
-│   ├── students.csv
-│   └── tutorial_readme.md
-└── .gitignore (if present in the repository)
+├── DESCRIPTION
+├── .gitignore
+├── data/
+│   └── students.csv
+├── scripts/
+│   └── student_analysis.R
+├── docs/
+│   └── student_analysis.Rmd
+├── outputs/
+│   └── plots/
+├── archive/
+│   └── legacy/
+│       ├── Markdown(MIhir-078(bca(reg))).rmd
+│       ├── Markdown-MIhir-078-bca-reg---.html
+│       └── tutorial_readme.md
+└── resources/
+    └── legacy project files
 ```
 
-## Directory Details
+## Current Data
 
-- `resources/` : Main data and documentation folder for the project.
-  - `students.csv` : Student dataset used for analysis.
-  - `Markdown(MIhir-078(bca(reg))).rmd` : R Markdown source file containing analysis and reports.
-  - `Markdown-MIhir-078-bca-reg---.html` : Rendered HTML output of the analysis report.
-  - `tutorial_readme.md` : Additional readme/tutorial notes for the project.
+- Dataset: `data/students.csv`
+- Description: Student information including ID, name, gender, date of birth, course, department, and CGPA.
 
-## Purpose
+## Main Analysis
 
-The project is designed to help analyze student-related data using R programming tools, including:
-- descriptive statistics
-- distribution analysis
-- visual data exploration
-- report generation
+The project analyzes:
+- student CGPA summary statistics
+- gender distribution
+- course distribution
+- CGPA distribution
+- average CGPA by course
+
+## Documentation
+
+The main documentation is organized as:
+- `README.md` — project overview and usage
+- `docs/student_analysis.Rmd` — R Markdown report source
+- `archive/legacy/` — older exploratory files kept for reference
+
+## Requirements
+
+This project uses R and the following package:
+- `knitr` (optional but useful for rendering reports)
+
+## How to Run
+
+Open the project in RStudio or another R environment and run:
+
+```r
+source("scripts/student_analysis.R")
+```
+
+If you want to render the report manually:
+
+```r
+rmarkdown::render("docs/student_analysis.Rmd")
+```
 
 ## Contributor
 
-TraceFork
-[Mihir H. Rathod — 2505101010078 — BCA (REG.)]
+- TraceFork
+- Mihir H. Rathod
+
+## Notes
+
+This repository is structured as a clean and maintainable R analysis project. The source code, datasets, documentation, and generated outputs are separated so the project remains easy to understand, extend, and share.

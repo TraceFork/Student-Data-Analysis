@@ -1,0 +1,101 @@
+Student_ID,Name,Gender,Date_of_Birth,Course,Department,CGPA
+STU2026001,Aarav Sharma,Male,2003-10-01,BBA,Management Studies,8.59
+STU2026002,Nikhil Kapoor,Male,2001-05-11,BCA,Computer Applications,6.21
+STU2026003,Aayush Trivedi,Male,2007-02-11,B.Com,Commerce,7.27
+STU2026004,Diya Joshi,Female,2005-09-28,B.Sc,Computer Science,5.92
+STU2026005,Riya Parekh,Female,2005-04-06,BCA,Computer Science,9.1
+STU2026006,Ananya Agarwal,Female,2007-01-06,BCA,Computer Science,5.56
+STU2026007,Palak Gupta,Female,2007-06-23,BBA,Management Studies,5.41
+STU2026008,Harsh Parekh,Male,2003-08-12,BCA,Computer Science,6.48
+STU2026009,Meera Gupta,Female,2004-12-26,BBA,Business Administration,8.43
+STU2026010,Siddharth Joshi,Male,2006-12-28,BBA,Management Studies,7.33
+STU2026011,Khushi Rao,Female,2004-08-21,BCA,Computer Applications,8.98
+STU2026012,Nisha Sharma,Female,2001-09-29,BBA,Business Administration,6.18
+STU2026013,Nisha Agarwal,Female,2002-08-09,B.Sc,Information Technology,6.33
+STU2026014,Muskan Kapoor,Female,2007-07-19,B.Com,Accounting & Finance,6.21
+STU2026015,Raj Saxena,Male,2002-01-08,BCA,Computer Applications,5.9
+STU2026016,Manav Khan,Male,2001-09-18,B.Com,Accounting & Finance,7.94
+STU2026017,Mahi Sharma,Female,2007-03-17,BCA,Computer Applications,8.34
+STU2026018,Neha Mehta,Female,2004-04-17,B.Com,Commerce,7.29
+STU2026019,Mahi Joshi,Female,2006-09-11,BCA,Computer Science,9.07
+STU2026020,Rohan Gupta,Male,2002-10-24,B.Tech,Computer Engineering,7.96
+STU2026021,Diya Mehta,Female,2005-01-26,B.Sc,Information Technology,5.47
+STU2026022,Aditya Saxena,Male,2001-10-11,B.Tech,Computer Engineering,5.79
+STU2026023,Khushi Joshi,Female,2003-12-22,B.Tech,Information Technology,9.64
+STU2026024,Harsh Mishra,Male,2005-03-10,B.Com,Accounting & Finance,5.76
+STU2026025,Aditya Singh,Male,2001-03-28,B.Tech,Computer Engineering,7.91
+STU2026026,Aditya Shah,Male,2003-07-27,BCA,Computer Applications,9.15
+STU2026027,Raj Rao,Male,2004-02-15,B.Com,Commerce,7.68
+STU2026028,Kavya Saxena,Female,2005-07-26,BBA,Management Studies,5.65
+STU2026029,Shreya Kapoor,Female,2005-08-11,B.Com,Commerce,8.3
+STU2026030,Vivaan Mishra,Male,2004-10-21,BCA,Computer Applications,6.08
+STU2026031,Aadhya Kapoor,Female,2003-01-22,B.Sc,Computer Science,6.35
+STU2026032,Kabir Iyer,Male,2002-02-06,BCA,Computer Applications,9.66
+STU2026033,Rahul Kapoor,Male,2006-06-13,B.Com,Commerce,9.18
+STU2026034,Rahul Mishra,Male,2001-01-09,B.Com,Accounting & Finance,9.46
+STU2026035,Pooja Kapoor,Female,2007-03-27,B.Com,Commerce,6.07
+STU2026036,Vivaan Nair,Male,2007-01-30,BCA,Computer Science,5.46
+STU2026037,Mahi Malhotra,Female,2002-10-07,BCA,Computer Applications,9.12
+STU2026038,Siddharth Parekh,Male,2003-08-22,B.Com,Commerce,9.53
+STU2026039,Nikhil Khan,Male,2001-06-12,B.Tech,Computer Engineering,7.13
+STU2026040,Sneha Trivedi,Female,2004-07-10,BBA,Business Administration,7.02
+STU2026041,Simran Singh,Female,2001-10-25,BCA,Computer Science,8.06
+STU2026042,Aditya Iyer,Male,2003-05-24,B.Tech,Information Technology,5.81
+STU2026043,Isha Rao,Female,2005-02-22,B.Sc,Information Technology,7.22
+STU2026044,Palak Malhotra,Female,2001-02-02,B.Tech,Information Technology,9.49
+STU2026045,Rohan Sharma,Male,2002-04-18,BCA,Computer Applications,6.45
+STU2026046,Dhruv Trivedi,Male,2003-12-18,B.Tech,Information Technology,6.36
+STU2026047,Aditya Kapoor,Male,2004-02-08,BCA,Computer Applications,6.73
+STU2026048,Yash Joshi,Male,2005-12-15,B.Tech,Information Technology,7.78
+STU2026049,Aditya Desai,Male,2007-02-13,BCA,Computer Science,7.88
+STU2026050,Manav Desai,Male,2001-06-21,B.Sc,Computer Science,9.34
+STU2026051,Krish Trivedi,Male,2003-10-20,BCA,Computer Science,8.79
+STU2026052,Palak Desai,Female,2003-08-28,BBA,Management Studies,9.25
+STU2026053,Rahul Singh,Male,2005-08-14,BBA,Business Administration,5.93
+STU2026054,Aryan Shah,Male,2006-04-12,BBA,Management Studies,8.96
+STU2026055,Shreya Verma,Female,2003-07-22,BBA,Management Studies,8.24
+STU2026056,Neha Sharma,Female,2001-10-12,B.Sc,Computer Science,8.15
+STU2026057,Khushi Singh,Female,2001-04-24,BCA,Computer Science,6.02
+STU2026058,Ananya Mehta,Female,2007-09-10,B.Com,Accounting & Finance,8.55
+STU2026059,Tanvi Khan,Female,2006-09-26,BCA,Computer Science,9.34
+STU2026060,Yash Shah,Male,2005-11-22,BCA,Computer Applications,6.88
+STU2026061,Dhruv Khan,Male,2004-07-09,BCA,Computer Science,7.53
+STU2026062,Neha Mishra,Female,2004-04-26,B.Tech,Computer Engineering,6.08
+STU2026063,Meera Khan,Female,2007-05-21,B.Sc,Computer Science,7.72
+STU2026064,Harsh Verma,Male,2003-05-11,B.Com,Accounting & Finance,7.34
+STU2026065,Priya Malhotra,Female,2006-04-23,BBA,Management Studies,6.51
+STU2026066,Pooja Rao,Female,2003-03-27,BBA,Management Studies,5.41
+STU2026067,Palak Parekh,Female,2006-02-09,B.Com,Commerce,8.5
+STU2026068,Avni Mishra,Female,2003-09-27,BBA,Management Studies,9.31
+STU2026069,Manav Rao,Male,2002-12-22,B.Tech,Information Technology,5.43
+STU2026070,Arjun Agarwal,Male,2002-07-01,B.Com,Accounting & Finance,9.57
+STU2026071,Tanvi Iyer,Female,2006-01-01,BBA,Business Administration,7.27
+STU2026072,Yash Malhotra,Male,2006-06-08,BBA,Business Administration,7.22
+STU2026073,Kavya Sharma,Female,2004-10-07,B.Sc,Data Science,5.57
+STU2026074,Dev Mishra,Male,2002-09-18,BBA,Management Studies,7.11
+STU2026075,Khushi Agarwal,Female,2005-08-31,BCA,Computer Applications,9.03
+STU2026076,Muskan Patel,Female,2007-06-17,B.Com,Accounting & Finance,5.23
+STU2026077,Pooja Mishra,Female,2005-09-13,B.Tech,Computer Engineering,7.45
+STU2026078,Tanvi Saxena,Female,2001-04-29,B.Com,Accounting & Finance,8.28
+STU2026079,Meera Agarwal,Female,2002-06-07,B.Tech,Computer Engineering,9.37
+STU2026080,Rohan Agarwal,Male,2003-01-15,BCA,Computer Science,6.94
+STU2026081,Kabir Singh,Male,2004-10-14,B.Com,Accounting & Finance,8.66
+STU2026082,Sneha Parekh,Female,2006-04-11,BCA,Computer Applications,9.8
+STU2026083,Kavya Parekh,Female,2001-06-14,BCA,Computer Applications,6.12
+STU2026084,Siddharth Desai,Male,2003-09-05,BBA,Business Administration,8.28
+STU2026085,Kabir Sharma,Male,2005-02-19,BBA,Management Studies,8.78
+STU2026086,Harsh Mehta,Male,2007-06-29,BCA,Computer Science,7.85
+STU2026087,Nisha Trivedi,Female,2001-11-08,B.Tech,Computer Engineering,5.67
+STU2026088,Palak Mehta,Female,2007-05-08,BCA,Computer Science,7.65
+STU2026089,Isha Malhotra,Female,2004-10-29,BCA,Computer Science,8.98
+STU2026090,Manav Gupta,Male,2006-02-27,BBA,Business Administration,6.01
+STU2026091,Palak Iyer,Female,2006-06-04,B.Com,Accounting & Finance,9.0
+STU2026092,Neha Rao,Female,2001-12-21,B.Sc,Computer Science,6.32
+STU2026093,Muskan Khan,Female,2005-04-02,B.Sc,Information Technology,7.47
+STU2026094,Meera Saxena,Female,2003-05-19,B.Sc,Computer Science,6.77
+STU2026095,Khushi Patel,Female,2006-10-18,BBA,Management Studies,6.31
+STU2026096,Avni Iyer,Female,2003-09-12,B.Com,Accounting & Finance,7.26
+STU2026097,Aditya Verma,Male,2003-06-27,B.Com,Commerce,6.61
+STU2026098,Mahi Gupta,Female,2005-10-09,B.Tech,Information Technology,6.82
+STU2026099,Sneha Verma,Female,2003-10-27,BBA,Management Studies,8.52
+STU2026100,Riya Iyer,Female,2003-01-29,BBA,Management Studies,8.6
