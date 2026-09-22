@@ -1,6 +1,6 @@
 # Student Data Analysis Tutorial
 
-Contributor: TraceFork
+Contributor: TraceFork ( Mihir H. Rathod )
 
 ## Project Overview
 This project is a small R-based analysis of student data. The goal is to explore patterns in the dataset, calculate summary statistics, examine distributions, and create visualizations that help explain trends in student performance and characteristics.
